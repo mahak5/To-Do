@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+	background-image: linear-gradient(#ffcd3c, #fbfd8a);
+	background-repeat: no-repeat;
+}
+body {
+	font-family: sans-serif;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+	color: #1b1b2f;
+}
+h2 {
+	padding-left: 15px;
+}
+ul {
+	list-style: none;
+}
+li {
+	border-bottom: 1px solid #ff6161;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 1.3em;
+	color: black;
+	position: relative;
+}
+a {
+	float: right;
+	color: #1b1b2f;
+	font-size: 1.2em;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+form {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 10px;
+	position: relative;
+}
+input[type='text'] {
+	width: 510px;
+	height: 30px;
+	outline: 0;
+	border: none;
+	font-size: 1.5em;
+	background: #fff;
+	color: black;
+}
+input[type='checkbox'] {
+	zoom: 1.3;
+}
+.btn {
+	font-size: 2em;
+	color: #79d70f;
+	background-color: #fff;
+	outline: 0;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	padding-right: 15px;
+	right: 0px;
+}
+.tasklist {
+	background-color: #fff;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	/* display: none; */
+}
+.delete {
+	background-color: #c70039;
+	position: absolute;
+	right: 40px;
+	padding: 3px 3px 3px 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.2em;
+}
+.edit {
+	background-color: lightblue;
+	position: absolute;
+	right: 0;
+	padding: 3px 3px 3px 7px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.2em;
+}
+@media (max-width: 800px) {
+	body {
+		/* margin: auto; */
+		width: 60%;
+	}
+	input[type='text'] {
+		width: 60%;
+	}
+	button {
+		width: 20%;
+	}
+}
