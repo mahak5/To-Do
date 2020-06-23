@@ -25,8 +25,8 @@ function clearList(e) {
 	var ul = (document.querySelector('ul').innerHTML = '');
 }
 function deleteIt(e) {
-	if (e.target.className == 'delete') deleteTask(e);
-	else {
+	if (e.target.className == 'fas fa-trash delete') deleteTask(e);
+	else if (e.target.className == 'fas fa-pencil-alt edit') {
 		document.querySelector('input').value = e.target.parentNode.textContent;
 		deleteTask(e);
 	}
