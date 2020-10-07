@@ -6,6 +6,7 @@ html {
 
 body {
     font-family: sans-serif;
+    font-family: 'Lobster', cursive;
     width: 600px;
     display: flex;
     flex-direction: column;
