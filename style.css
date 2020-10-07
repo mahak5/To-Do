@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: sans-serif;
-    font-family: 'Lobster', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 600px;
     display: flex;
     flex-direction: column;
